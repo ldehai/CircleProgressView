@@ -1,0 +1,489 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A1C73A261850BDFF00E34146 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A1C73A251850BDFF00E34146 /* Foundation.framework */; };
+		A1C73A281850BDFF00E34146 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A1C73A271850BDFF00E34146 /* CoreGraphics.framework */; };
+		A1C73A2A1850BDFF00E34146 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A1C73A291850BDFF00E34146 /* UIKit.framework */; };
+		A1C73A301850BDFF00E34146 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = A1C73A2E1850BDFF00E34146 /* InfoPlist.strings */; };
+		A1C73A321850BDFF00E34146 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A1C73A311850BDFF00E34146 /* main.m */; };
+		A1C73A361850BDFF00E34146 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A1C73A351850BDFF00E34146 /* AppDelegate.m */; };
+		A1C73A391850BDFF00E34146 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A1C73A371850BDFF00E34146 /* Main.storyboard */; };
+		A1C73A3C1850BDFF00E34146 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A1C73A3B1850BDFF00E34146 /* ViewController.m */; };
+		A1C73A3E1850BDFF00E34146 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A1C73A3D1850BDFF00E34146 /* Images.xcassets */; };
+		A1C73A451850BDFF00E34146 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A1C73A441850BDFF00E34146 /* XCTest.framework */; };
+		A1C73A461850BDFF00E34146 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A1C73A251850BDFF00E34146 /* Foundation.framework */; };
+		A1C73A471850BDFF00E34146 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A1C73A291850BDFF00E34146 /* UIKit.framework */; };
+		A1C73A4F1850BDFF00E34146 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = A1C73A4D1850BDFF00E34146 /* InfoPlist.strings */; };
+		A1C73A511850BDFF00E34146 /* CircleProgressDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = A1C73A501850BDFF00E34146 /* CircleProgressDemoTests.m */; };
+		A1C73A5D1850BE6B00E34146 /* CircleProgressView.m in Sources */ = {isa = PBXBuildFile; fileRef = A1C73A5C1850BE6B00E34146 /* CircleProgressView.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		A1C73A481850BDFF00E34146 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A1C73A1A1850BDFF00E34146 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A1C73A211850BDFF00E34146;
+			remoteInfo = CircleProgressDemo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		A1C73A221850BDFF00E34146 /* CircleProgressDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CircleProgressDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A1C73A251850BDFF00E34146 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		A1C73A271850BDFF00E34146 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		A1C73A291850BDFF00E34146 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		A1C73A2D1850BDFF00E34146 /* CircleProgressDemo-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "CircleProgressDemo-Info.plist"; sourceTree = "<group>"; };
+		A1C73A2F1850BDFF00E34146 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		A1C73A311850BDFF00E34146 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		A1C73A331850BDFF00E34146 /* CircleProgressDemo-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "CircleProgressDemo-Prefix.pch"; sourceTree = "<group>"; };
+		A1C73A341850BDFF00E34146 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		A1C73A351850BDFF00E34146 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		A1C73A381850BDFF00E34146 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		A1C73A3A1850BDFF00E34146 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		A1C73A3B1850BDFF00E34146 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		A1C73A3D1850BDFF00E34146 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		A1C73A431850BDFF00E34146 /* CircleProgressDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CircleProgressDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A1C73A441850BDFF00E34146 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		A1C73A4C1850BDFF00E34146 /* CircleProgressDemoTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "CircleProgressDemoTests-Info.plist"; sourceTree = "<group>"; };
+		A1C73A4E1850BDFF00E34146 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		A1C73A501850BDFF00E34146 /* CircleProgressDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CircleProgressDemoTests.m; sourceTree = "<group>"; };
+		A1C73A5B1850BE6B00E34146 /* CircleProgressView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CircleProgressView.h; sourceTree = "<group>"; };
+		A1C73A5C1850BE6B00E34146 /* CircleProgressView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CircleProgressView.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A1C73A1F1850BDFF00E34146 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A1C73A281850BDFF00E34146 /* CoreGraphics.framework in Frameworks */,
+				A1C73A2A1850BDFF00E34146 /* UIKit.framework in Frameworks */,
+				A1C73A261850BDFF00E34146 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A1C73A401850BDFF00E34146 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A1C73A451850BDFF00E34146 /* XCTest.framework in Frameworks */,
+				A1C73A471850BDFF00E34146 /* UIKit.framework in Frameworks */,
+				A1C73A461850BDFF00E34146 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A1C73A191850BDFF00E34146 = {
+			isa = PBXGroup;
+			children = (
+				A1C73A2B1850BDFF00E34146 /* CircleProgressDemo */,
+				A1C73A4A1850BDFF00E34146 /* CircleProgressDemoTests */,
+				A1C73A241850BDFF00E34146 /* Frameworks */,
+				A1C73A231850BDFF00E34146 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A1C73A231850BDFF00E34146 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A1C73A221850BDFF00E34146 /* CircleProgressDemo.app */,
+				A1C73A431850BDFF00E34146 /* CircleProgressDemoTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A1C73A241850BDFF00E34146 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A1C73A251850BDFF00E34146 /* Foundation.framework */,
+				A1C73A271850BDFF00E34146 /* CoreGraphics.framework */,
+				A1C73A291850BDFF00E34146 /* UIKit.framework */,
+				A1C73A441850BDFF00E34146 /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		A1C73A2B1850BDFF00E34146 /* CircleProgressDemo */ = {
+			isa = PBXGroup;
+			children = (
+				A1C73A5A1850BE6B00E34146 /* CircleProgressView */,
+				A1C73A341850BDFF00E34146 /* AppDelegate.h */,
+				A1C73A351850BDFF00E34146 /* AppDelegate.m */,
+				A1C73A371850BDFF00E34146 /* Main.storyboard */,
+				A1C73A3A1850BDFF00E34146 /* ViewController.h */,
+				A1C73A3B1850BDFF00E34146 /* ViewController.m */,
+				A1C73A3D1850BDFF00E34146 /* Images.xcassets */,
+				A1C73A2C1850BDFF00E34146 /* Supporting Files */,
+			);
+			path = CircleProgressDemo;
+			sourceTree = "<group>";
+		};
+		A1C73A2C1850BDFF00E34146 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				A1C73A2D1850BDFF00E34146 /* CircleProgressDemo-Info.plist */,
+				A1C73A2E1850BDFF00E34146 /* InfoPlist.strings */,
+				A1C73A311850BDFF00E34146 /* main.m */,
+				A1C73A331850BDFF00E34146 /* CircleProgressDemo-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		A1C73A4A1850BDFF00E34146 /* CircleProgressDemoTests */ = {
+			isa = PBXGroup;
+			children = (
+				A1C73A501850BDFF00E34146 /* CircleProgressDemoTests.m */,
+				A1C73A4B1850BDFF00E34146 /* Supporting Files */,
+			);
+			path = CircleProgressDemoTests;
+			sourceTree = "<group>";
+		};
+		A1C73A4B1850BDFF00E34146 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				A1C73A4C1850BDFF00E34146 /* CircleProgressDemoTests-Info.plist */,
+				A1C73A4D1850BDFF00E34146 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		A1C73A5A1850BE6B00E34146 /* CircleProgressView */ = {
+			isa = PBXGroup;
+			children = (
+				A1C73A5B1850BE6B00E34146 /* CircleProgressView.h */,
+				A1C73A5C1850BE6B00E34146 /* CircleProgressView.m */,
+			);
+			path = CircleProgressView;
+			sourceTree = SOURCE_ROOT;
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A1C73A211850BDFF00E34146 /* CircleProgressDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A1C73A541850BDFF00E34146 /* Build configuration list for PBXNativeTarget "CircleProgressDemo" */;
+			buildPhases = (
+				A1C73A1E1850BDFF00E34146 /* Sources */,
+				A1C73A1F1850BDFF00E34146 /* Frameworks */,
+				A1C73A201850BDFF00E34146 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CircleProgressDemo;
+			productName = CircleProgressDemo;
+			productReference = A1C73A221850BDFF00E34146 /* CircleProgressDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		A1C73A421850BDFF00E34146 /* CircleProgressDemoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A1C73A571850BDFF00E34146 /* Build configuration list for PBXNativeTarget "CircleProgressDemoTests" */;
+			buildPhases = (
+				A1C73A3F1850BDFF00E34146 /* Sources */,
+				A1C73A401850BDFF00E34146 /* Frameworks */,
+				A1C73A411850BDFF00E34146 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A1C73A491850BDFF00E34146 /* PBXTargetDependency */,
+			);
+			name = CircleProgressDemoTests;
+			productName = CircleProgressDemoTests;
+			productReference = A1C73A431850BDFF00E34146 /* CircleProgressDemoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A1C73A1A1850BDFF00E34146 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0500;
+				ORGANIZATIONNAME = "AM Studio";
+				TargetAttributes = {
+					A1C73A421850BDFF00E34146 = {
+						TestTargetID = A1C73A211850BDFF00E34146;
+					};
+				};
+			};
+			buildConfigurationList = A1C73A1D1850BDFF00E34146 /* Build configuration list for PBXProject "CircleProgressDemo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A1C73A191850BDFF00E34146;
+			productRefGroup = A1C73A231850BDFF00E34146 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A1C73A211850BDFF00E34146 /* CircleProgressDemo */,
+				A1C73A421850BDFF00E34146 /* CircleProgressDemoTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A1C73A201850BDFF00E34146 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A1C73A3E1850BDFF00E34146 /* Images.xcassets in Resources */,
+				A1C73A301850BDFF00E34146 /* InfoPlist.strings in Resources */,
+				A1C73A391850BDFF00E34146 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A1C73A411850BDFF00E34146 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A1C73A4F1850BDFF00E34146 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A1C73A1E1850BDFF00E34146 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A1C73A3C1850BDFF00E34146 /* ViewController.m in Sources */,
+				A1C73A5D1850BE6B00E34146 /* CircleProgressView.m in Sources */,
+				A1C73A361850BDFF00E34146 /* AppDelegate.m in Sources */,
+				A1C73A321850BDFF00E34146 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A1C73A3F1850BDFF00E34146 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A1C73A511850BDFF00E34146 /* CircleProgressDemoTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		A1C73A491850BDFF00E34146 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A1C73A211850BDFF00E34146 /* CircleProgressDemo */;
+			targetProxy = A1C73A481850BDFF00E34146 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		A1C73A2E1850BDFF00E34146 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A1C73A2F1850BDFF00E34146 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		A1C73A371850BDFF00E34146 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A1C73A381850BDFF00E34146 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		A1C73A4D1850BDFF00E34146 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A1C73A4E1850BDFF00E34146 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A1C73A521850BDFF00E34146 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		A1C73A531850BDFF00E34146 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A1C73A551850BDFF00E34146 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "CircleProgressDemo/CircleProgressDemo-Prefix.pch";
+				INFOPLIST_FILE = "CircleProgressDemo/CircleProgressDemo-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		A1C73A561850BDFF00E34146 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "CircleProgressDemo/CircleProgressDemo-Prefix.pch";
+				INFOPLIST_FILE = "CircleProgressDemo/CircleProgressDemo-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		A1C73A581850BDFF00E34146 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/CircleProgressDemo.app/CircleProgressDemo";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "CircleProgressDemo/CircleProgressDemo-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "CircleProgressDemoTests/CircleProgressDemoTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		A1C73A591850BDFF00E34146 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/CircleProgressDemo.app/CircleProgressDemo";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "CircleProgressDemo/CircleProgressDemo-Prefix.pch";
+				INFOPLIST_FILE = "CircleProgressDemoTests/CircleProgressDemoTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A1C73A1D1850BDFF00E34146 /* Build configuration list for PBXProject "CircleProgressDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A1C73A521850BDFF00E34146 /* Debug */,
+				A1C73A531850BDFF00E34146 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A1C73A541850BDFF00E34146 /* Build configuration list for PBXNativeTarget "CircleProgressDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A1C73A551850BDFF00E34146 /* Debug */,
+				A1C73A561850BDFF00E34146 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		A1C73A571850BDFF00E34146 /* Build configuration list for PBXNativeTarget "CircleProgressDemoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A1C73A581850BDFF00E34146 /* Debug */,
+				A1C73A591850BDFF00E34146 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A1C73A1A1850BDFF00E34146 /* Project object */;
+}
